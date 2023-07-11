@@ -58,6 +58,8 @@
   padding: 20px;
   margin: auto;
   margin-bottom: 40px;
+  overflow: auto;
+  text-align: left;
 }
 
 .footer {

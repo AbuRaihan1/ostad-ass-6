@@ -7,7 +7,6 @@ const Content = () => {
   const handleShowTextClick = (e) => {
     e.preventDefault();
     setOutputText(textAreaText);
-    setTextAreaText("");
   };
   console.log(textAreaText);
   const handleTextAreaChange = (event) => {
@@ -20,7 +19,6 @@ const Content = () => {
         <textarea
           value={textAreaText}
           onChange={handleTextAreaChange}
-          onBlur={handleTextAreaChange}
           placeholder="Enter your text here"
           required
         ></textarea>
